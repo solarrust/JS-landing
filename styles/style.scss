@@ -1,0 +1,18 @@
+@import "normalize.css";
+
+@import  "components/colors";
+@import  "components/mixins";
+@import "components/fonts";
+@import  "components/main"; // Общие стили
+
+@import "components/_header",
+        "components/_slider",
+        "components/_page-navigation",
+        "components/_process",
+        "components/_skills",
+        "components/_programm",
+        "components/_opinions",
+        "components/_career",
+        "components/_registration",
+        "components/_questions",
+        "components/_footer";

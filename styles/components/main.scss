@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $main-links;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.full-wrapper {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 20px 55px;
+}
+
+.middle-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  flex: {
+    wrap: no-wrap;
+    direction: row;
+  }
+}
+
+.section-title {
+  color: $dark-text;
+  font-size: 41px;
+  line-height: 49px;
+  font: {
+    family: 'Circe Light', Arial, sans-serif;
+    weight: 300;
+  }
+}
+
+.reverse-color {
+  color: $light-text;
+}

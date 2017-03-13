@@ -1,0 +1,18 @@
+.process {
+  @include bkg-image("../images/pieces-background.svg");
+  position: relative;
+}
+
+.process:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: {
+    image: radial-gradient(circle at 50% 8%, #80bbff, #4990e2);
+  }
+  z-index: -1;
+}

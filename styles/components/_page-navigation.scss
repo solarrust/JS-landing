@@ -1,0 +1,11 @@
+.page-navigation {
+
+}
+
+.course-logo {
+  display: block;
+  float: left;
+  width: 133px;
+  height: 45px;
+  @include bkg-image("../images/JS-logo.svg");
+}
