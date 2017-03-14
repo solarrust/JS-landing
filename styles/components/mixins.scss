@@ -12,3 +12,7 @@
     color: $color;
   }
 }
+
+@mixin transition($property: all) {
+  transition: $property 0.4s;
+}

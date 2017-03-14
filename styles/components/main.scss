@@ -4,6 +4,18 @@
   padding: 0;
 }
 
+html, body {
+  font: {
+    family: 'Circe Regular', Arial, sans-serif;
+    size: 18px;
+    weight: normal;
+  }
+}
+
+h1 {
+  margin: 0;
+}
+
 a {
   text-decoration: none;
   color: $main-links;
@@ -16,7 +28,7 @@ ul {
 .full-wrapper {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 20px 55px;
+  padding: 20px 0;
 }
 
 .middle-wrapper {
@@ -30,6 +42,7 @@ ul {
     wrap: no-wrap;
     direction: row;
   }
+  justify-content: space-between;
 }
 
 .section-title {
@@ -44,4 +57,8 @@ ul {
 
 .reverse-color {
   color: $light-text;
+}
+
+.bordered {
+  border-bottom: 1px solid $light-border;
 }

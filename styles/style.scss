@@ -2,8 +2,9 @@
 
 @import  "components/colors";
 @import  "components/mixins";
-@import "components/fonts";
+@import  "components/fonts";
 @import  "components/main"; // Общие стили
+@import  "components/buttons";
 
 @import "components/_header",
         "components/_slider",

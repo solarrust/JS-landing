@@ -1,0 +1,55 @@
+.light-text {
+  color: $light-text;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.anchor-btn {
+  background-color: transparent;
+  border: 3px solid $bright-border;
+  border-radius: 35px;
+  padding: 15px 35px;
+  font: {
+    size: 12px;
+    family: 'Circe Bold', Arial, sans-serif;
+  }
+  text-transform: uppercase;
+  @include transition;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+    color: $hover-links;
+    background-color: $anchor-btn-background;
+    cursor: pointer;
+    @include transition;
+  }
+}
+
+.conversion-btn {
+  background-color: $blue-btn;
+  border: none;
+  border-radius: 100px;
+  color: $light-text;
+  padding: 15px 35px;
+  box-shadow: 0 16px 24px 0 $blue-shadow;
+  font: {
+    size: 20px;
+    family: 'Circe Bold', Arial, sans-serif;
+  }
+  @include transition;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+    background-color: $hover-blue-btn;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    @include transition;
+  }
+}
