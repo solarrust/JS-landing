@@ -1,0 +1,82 @@
+.about {
+  padding: 55px 0;
+}
+
+.about-main-article {
+  max-width: 50%;
+  padding: 80px 140px 80px 0;
+}
+
+.about-main-title {
+  font: {
+    family: 'Circe Light', Arial, sans-serif;
+    size: 45px;
+    weight: normal;
+  }
+  line-height: 49px;
+  max-width: 395px;
+  margin-bottom: 45px;
+
+  &::before {
+    content: "JS";
+    display: block;
+    font: {
+      family: 'Circe Bold', Arial, sans-serif;
+      size: 12px;
+    }
+    color: $red-accent;
+  }
+}
+
+.about-main-text {
+  font: {
+    family: 'Circe Regular', Arial, sans-serif;
+  }
+  color: $gray-text;
+}
+
+.about-list {
+  max-width: 50%;
+}
+
+.about-list-item {
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+
+.list-item-title {
+  font: {
+    family: 'Circe Regular', Arial, sans-serif;
+    size: 22px;
+    weight: normal;
+  }
+  margin-bottom: 20px;
+}
+
+.list-item-text {
+  margin-left: 100px;
+  color: $gray-text;
+}
+
+.icon:before {
+  content: "";
+  width: 70px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin-right: 30px;
+  float: left;
+}
+
+.icon-js::before {
+  background-inline-image: url(../images/icon-js.svg);
+}
+
+.icon-tag::before {
+  background-inline-image: url(../images/icon-tag.svg);
+}
+
+.icon-brackets::before {
+  background-inline-image: url(../images/icon-brackets.svg);
+}
