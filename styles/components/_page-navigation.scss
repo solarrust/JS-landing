@@ -1,5 +1,5 @@
 .page-navigation {
-
+  padding: 0 55px;
 }
 
 .course-logo {
@@ -8,4 +8,22 @@
   width: 133px;
   height: 45px;
   @include bkg-image("../images/JS-logo.svg");
+}
+
+.page-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 550px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.page-menu-item {
+  color: $dark-text;
+  @include transition;
+
+  &:hover {
+    color: $hover-links;
+    @include transition;
+  }
 }

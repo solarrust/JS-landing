@@ -275,6 +275,10 @@ ul {
   padding-left: 5px;
 }
 
+.page-navigation {
+  padding: 0 55px;
+}
+
 .course-logo {
   display: block;
   float: left;
@@ -284,6 +288,32 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.page-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 550px;
+  padding: 15px 0;
+  margin: 0 auto;
+}
+
+.page-menu-item {
+  color: #212121;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.page-menu-item:hover {
+  color: #fc1b62;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .process {
