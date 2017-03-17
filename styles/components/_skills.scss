@@ -1,3 +1,32 @@
 .skills {
   @include bkg-color($main-background);
+  text-align: center;
+
+  .custom-wrapper {
+    max-width: 1140px;
+  }
+
+  .conversion-btn {
+    margin: 20px 0;
+  }
+}
+
+.skill-icons-list {
+  margin: 30px 0;
+}
+
+.skill-icon-list-item {
+  width: 205px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.skill-icon {
+  display: block;
+  width: 192px;
+  height: 192px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 auto;
 }
