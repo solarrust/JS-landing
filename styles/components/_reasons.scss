@@ -1,0 +1,8 @@
+.reasons {
+  @include bkg-color($red-background);
+}
+
+.reason-text {
+  font-size: 22px;
+  line-height: 30px;
+}

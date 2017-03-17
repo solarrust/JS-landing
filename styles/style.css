@@ -96,6 +96,19 @@ ul {
   margin-bottom: 45px;
 }
 
+.side-align {
+  text-align: left;
+}
+
+.decoration:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+  margin: 30px 0;
+}
+
 .reverse-color {
   color: #ffffff;
 }
@@ -517,6 +530,15 @@ ul {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0 auto;
+}
+
+.reasons {
+  background-color: #ff654a;
+}
+
+.reason-text {
+  font-size: 22px;
+  line-height: 30px;
 }
 
 .programm {

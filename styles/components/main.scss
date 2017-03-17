@@ -58,6 +58,21 @@ ul {
   margin-bottom: 45px;
 }
 
+.side-align {
+  text-align: left;
+}
+
+.decoration {
+  &:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 3px;
+    @include bkg-color($light-text);
+    margin: 30px 0;
+  }
+}
+
 .reverse-color {
   color: $light-text;
 }
