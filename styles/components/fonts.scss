@@ -24,3 +24,12 @@
   }
   src: local('Circe Bold'), url('../fonts/CirceBold.woff') format('woff');
 }
+
+@font-face {
+  font: {
+    family: 'Circe ExtraBold';
+    style: normal;
+    weight: normal;
+  }
+  src: local('Circe ExtraBold'), url('../fonts/CirceExtraBold.woff') format('woff');
+}
