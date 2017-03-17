@@ -547,6 +547,53 @@ ul {
 
 .opinions {
   background-color: #54adf7;
+  padding: 20px 100px;
+}
+
+.opinion-block {
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 100px 530px 100px 100px;
+  position: relative;
+}
+
+.opinion-image {
+  width: 430px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.person-avatar {
+  width: auto;
+  height: 100%;
+}
+
+.opinion-title {
+  margin: 40px 0;
+  font-family: 'Circe Bold', Arial, sans-serif;
+  font-size: 34px;
+  color: #4e4e4e;
+}
+
+.opinion-text {
+  font-size: 22px;
+  color: #6c7073;
+}
+
+.opinion-text + .person {
+  margin-top: 80px;
+}
+
+.person-name {
+  font-family: 'Circe Bold', Arial, sans-serif;
+  font-size: 22px;
+  color: #4e4e4e;
+}
+
+.person-work {
+  color: #adb0b2;
 }
 
 .career {

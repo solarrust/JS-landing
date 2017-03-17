@@ -1,3 +1,54 @@
 .opinions {
   @include bkg-color($rare-background);
+  padding: 20px 100px;
+}
+
+.opinion-block {
+  @include bkg-color($white-background);
+  overflow: hidden;
+  padding: 100px 530px 100px 100px;
+  position: relative;
+}
+
+.opinion-image {
+  width: 430px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.person-avatar {
+  width: auto;
+  height: 100%;
+}
+
+.opinion-title {
+  margin: 40px 0;
+  font: {
+    family: 'Circe Bold', Arial, sans-serif;
+    size: 34px;
+  }
+  color: $dark-gray-text;
+}
+
+.opinion-text {
+  font-size: 22px;
+  color: $gray-text;
+}
+
+.opinion-text + .person {
+  margin-top: 80px;
+}
+
+.person-name {
+  font: {
+    family: 'Circe Bold', Arial, sans-serif;
+    size: 22px;
+  }
+  color: $dark-gray-text;
+}
+
+.person-work {
+  color: lighten($gray-text, 25%);
 }
