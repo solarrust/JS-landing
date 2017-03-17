@@ -1,5 +1,5 @@
 .about {
-  padding: 55px 0;
+  
 }
 
 .about-main-article {
@@ -62,21 +62,19 @@
   content: "";
   width: 70px;
   height: 60px;
-  background-size: contain;
-  background-repeat: no-repeat;
   display: block;
   margin-right: 30px;
   float: left;
 }
 
 .icon-js::before {
-  background-inline-image: url(../images/icon-js.svg);
+  content: url(../images/icon-js.svg);
 }
 
 .icon-tag::before {
-  background-inline-image: url(../images/icon-tag.svg);
+  content: url(../images/icon-tag.svg);
 }
 
 .icon-brackets::before {
-  background-inline-image: url(../images/icon-brackets.svg);
+  content: url(../images/icon-brackets.svg);
 }
