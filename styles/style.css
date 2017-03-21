@@ -533,7 +533,10 @@ ul {
 }
 
 .reasons {
-  background-color: #ff654a;
+  background-image: url("../images/why-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .reason-text {
