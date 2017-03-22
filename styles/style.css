@@ -546,7 +546,7 @@ ul {
 }
 
 .experts-list-item {
-  width: 300px;
+  width: 290px;
   border: 1px solid #d8d8d8;
   border-radius: 6px;
   padding: 50px 20px;
@@ -672,4 +672,93 @@ ul {
 
 .medium:before {
   content: "\f23a";
+}
+
+.wharefore-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.wharefore-list-item {
+  width: 45%;
+  vertical-align: top;
+  padding: 25px 0;
+  position: relative;
+  min-height: 265px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.wharefore-list-item:nth-child(n+3) {
+  margin-top: 65px;
+}
+
+.wharefore-list-item:after {
+  content: "";
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  display: block;
+  position: absolute;
+  width: 265px;
+  height: 265px;
+  top: 0;
+  margin-right: 50%;
+  -webkit-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+  z-index: -1;
+}
+
+.wharefore-list-item:first-child:after {
+  background-color: #e1f1f3;
+}
+
+.wharefore-list-item:nth-child(2):after {
+  background-color: #ebf3e1;
+}
+
+.wharefore-list-item:nth-child(3):after {
+  background-color: #e3e2f1;
+}
+
+.wharefore-list-item:nth-child(4):after {
+  background-color: #f3e1e1;
+}
+
+.wharefore-list-item-title {
+  font-family: 'Circe Bold', Arial, sans-serif;
+  font-size: 30px;
+}
+
+.wharefore-list-item-text {
+  font-size: 23px;
+}
+
+.wharefore-list-item-text:before {
+  content: "— ";
 }
