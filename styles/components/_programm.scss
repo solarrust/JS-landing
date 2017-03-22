@@ -1,3 +1,142 @@
 .programm {
   @include bkg-color($main-background);
+  padding: 75px 0;
+}
+
+.programm-block {
+  position: relative;
+}
+
+.programm-block-title {
+  font: {
+    family: 'Circe Light', Arial, sans-serif;
+    size: 28px;
+    weight: 300;
+  }
+  border-bottom: 2px solid $light-border;
+  margin-bottom: 45px;
+  @include transition;
+
+  &::after {
+    content: url(../images/icon-arrow.svg);
+    display: block;
+    float: right;
+  }
+
+  &.is-active::after {
+    transform: rotate(90deg);
+    @include transition;
+  }
+}
+
+.lecture-list {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 45px 45px 0;
+  width: 50%;
+  border-right: 2px solid $light-border;
+  counter-reset: lecture-num;
+}
+
+.lecture {
+  width: 100%;
+  padding: 35px;
+  padding-left: 100px;
+  @include bkg-color(#ffffff);
+  box-shadow: 0 34px 63px 0 rgba(0, 0, 0, 0.06);
+
+  &::before {
+    content: "";
+    display: block;
+    border-top: 15px solid transparent;
+  	border-left: 15px solid #ffffff;
+  	border-bottom: 15px solid transparent;
+    right: 52.5%;
+    position: absolute;
+    box-shadow: 0 34px 63px 0 rgba(0, 0, 0, 0.06);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.lecture-title {
+  font: {
+    family: 'Circe Bold', Arial, sans-serif;
+    size: 20px;
+  }
+  position: relative;
+
+  &::before {
+    counter-increment: lecture-num;
+    content: counter(lecture-num);
+    float: left;
+    display: block;
+    width: 43px;
+    height: 43px;
+    border: 1px solid $dark-accent;
+    border-radius: 50%;
+    font: {
+      family: 'Circe Bold', Arial, sans-serif;
+    }
+    color: $dark-accent;
+    line-height: 43px;
+    text-align: center;
+    position: absolute;
+    left: -65px;
+  }
+}
+
+.lecture-practice {
+  position: absolute;
+  right: 0;
+  max-width: 46.5%;
+  padding: 35px;
+  padding-left: 100px;
+  @include bkg-color(#ffffff);
+  border: 3px solid $bright-border;
+
+
+  &::before {
+    content: "";
+    display: block;
+    width: 0;
+  	height: 0;
+  	border-top: 15px solid transparent;
+  	border-right: 15px solid $anchor-btn-background;
+  	border-bottom: 15px solid transparent;
+    left: -2.9%;
+    position: absolute;
+  }
+}
+
+.lecture-practice-title {
+  font: {
+    family: 'Circe Bold', Arial, sans-serif;
+    size: 20px;
+  }
+  margin-bottom: 25px;
+
+  &::before {
+    content: "JS";
+    float: left;
+    display: block;
+    width: 43px;
+    height: 43px;
+    @include bkg-color($anchor-btn-background);
+    border-radius: 50%;
+    font: {
+      size: 20px;
+    }
+    line-height: 43px;
+    text-align: center;
+    position: absolute;
+    left: 35px;
+  }
+}
+
+.lecture-practice-text {
+  line-height: 27px;
 }
