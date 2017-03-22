@@ -173,83 +173,6 @@ ul {
   transition: all 0.4s;
 }
 
-.header {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  padding: 0 55px;
-}
-
-.logo {
-  display: block;
-  background-image: url("../images/netology-logo.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-size: contain;
-  width: 165px;
-}
-
-.header-menu {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  margin: 0 120px;
-  line-height: 45px;
-}
-
-.header-menu-item {
-  color: #ffffff;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.header-menu-item:hover {
-  color: #fc1b62;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.avatar {
-  display: block;
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  margin-right: 20px;
-  float: right;
-}
-
-.arrow {
-  background-image: url("../images/arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-size: contain;
-  display: block;
-  width: 12px;
-  height: 12px;
-  float: right;
-  margin-top: 17px;
-}
-
-.arrow:hover {
-  cursor: pointer;
-}
-
-.user-menu {
-  display: none;
-}
-
 .slider {
   background-image: url("../images/slider-background.png");
   background-repeat: no-repeat;
@@ -603,17 +526,140 @@ ul {
   background-color: #f7f7f7;
 }
 
-.registration {
-  background-image: url("../images/registration-bkg.jpg");
+.experts-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.experts-list-item {
+  width: 300px;
+  border: 1px solid #d8d8d8;
+  border-radius: 6px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.expert-avatar {
+  background-image: url("../images/emotarHamster.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 95px;
+  height: 95px;
 }
 
-.questions {
-  background-color: #f7f7f7;
+.expert-name {
+  font-size: 22px;
+  line-height: 40px;
 }
 
-.footer-black {
-  background-color: #2b2b2b;
+.expert-name:before {
+  content: "";
+  display: block;
+  background: #f2f1f1;
+  width: 40px;
+  height: 2px;
+  margin: 0 auto 15px;
+}
+
+.expert-position {
+  font-size: 14px;
+  font-line-height: 2;
+  color: #6c7073;
+}
+
+.expert-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 50px 20px 0;
+}
+
+.expert-social-item {
+  width: 26px;
+  height: 26px;
+  background: #dedddd;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.expert-social-item a {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.expert-social-item:before {
+  font-family: FontAwesome;
+  color: #ffffff;
+  line-height: 26px;
+}
+
+.expert-social-item:hover:before {
+  color: #fc1b62;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.facebook:before {
+  content: "\f09a";
+}
+
+.twitter:before {
+  content: "\f099";
+}
+
+.linkedin:before {
+  content: "\f0e1";
+}
+
+.skype:before {
+  content: "\f17e";
+}
+
+.slack:before {
+  content: "\f198";
+}
+
+.vk:before {
+  content: "\f189";
+}
+
+.medium:before {
+  content: "\f23a";
 }

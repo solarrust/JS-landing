@@ -1,0 +1,116 @@
+.experts-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.experts-list-item {
+  width: 300px;
+  border: 1px solid $light-border;
+  border-radius: 6px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.expert-avatar {
+  @include bkg-image("../images/emotarHamster.png");
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 95px;
+  height: 95px;
+}
+
+.expert-name {
+  font: {
+    size: 22px;
+  }
+  line-height: 40px;
+
+  &::before {
+    content: "";
+    display: block;
+    background: lighten($light-border, 10%);
+    width: 40px;
+    height: 2px;
+    margin: 0 auto 15px;
+  }
+}
+
+.expert-position {
+  font: {
+    size: 14px;
+    line-height: 2;
+  }
+  color: $gray-text;
+}
+
+.expert-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 50px 20px 0;
+}
+
+.expert-social-item {
+  width: 26px;
+  height: 26px;
+  background: darken($main-background, 10%);
+  border-radius: 50%;
+  position: relative;
+  @include transition;
+
+  a {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &::before {
+    font-family: FontAwesome;
+    color: $light-text;
+    line-height: 26px;
+  }
+
+  &:hover::before {
+    color: $hover-links;
+    @include transition;
+  }
+}
+
+// Иконки соц.сетей
+.facebook::before {
+  content: "\f09a";
+}
+
+.twitter::before {
+  content: "\f099";
+}
+
+.linkedin::before {
+  content: "\f0e1";
+}
+
+.skype::before {
+  content: "\f17e";
+}
+
+.slack::before {
+  content: "\f198";
+}
+
+.vk::before {
+  content: "\f189";
+}
+
+.medium::before {
+  content: "\f23a";
+}
+
+// End

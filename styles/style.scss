@@ -6,16 +6,13 @@
 @import  "components/main"; // Общие стили
 @import  "components/buttons";
 
-@import "components/_header",
-        "components/_slider",
-        "components/_page-navigation",
-        "components/_about",
-        "components/_process",
-        "components/_skills",
+@import "components/slider",
+        "components/page-navigation",
+        "components/about",
+        "components/process",
+        "components/skills",
         "components/reasons",
-        "components/_programm",
-        "components/_opinions",
-        "components/_career",
-        "components/_registration",
-        "components/_questions",
-        "components/_footer";
+        "components/programm",
+        "components/opinions",
+        "components/career",
+        "components/experts";
