@@ -1,8 +1,21 @@
 .slider {
-  @include bkg-image("../images/slider-background.png");
+  @include bkg-image("../images/slider-background.jpg");
   padding-top: 185px;
   padding-bottom: 95px;
   text-align: center;
+  height: 100vh;
+  min-height: 900px;
+  position: relative;
+
+  &::after {
+    content: url(../images/icon-triangle.svg);
+    display: block;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+  }
 }
 
 .slider-title {
