@@ -58,7 +58,7 @@ ul {
 .full-wrapper {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .middle-wrapper {
@@ -72,9 +72,9 @@ ul {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-wrap: no-wrap;
-  -ms-flex-wrap: no-wrap;
-  flex-wrap: no-wrap;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -115,6 +115,10 @@ ul {
 
 .bordered {
   border-bottom: 1px solid #d8d8d8;
+}
+
+.anchor {
+  margin-top: 95px;
 }
 
 .light-text {
@@ -187,7 +191,7 @@ ul {
 }
 
 .slider:after {
-  content: url(../images/icon-triangle.svg);
+  content: url("../images/icon-triangle.svg");
   display: block;
   text-align: center;
   position: absolute;

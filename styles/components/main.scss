@@ -28,7 +28,7 @@ ul {
 .full-wrapper {
   max-width: 1330px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .middle-wrapper {
@@ -40,7 +40,7 @@ ul {
 .flex {
   display: flex;
   flex: {
-    wrap: no-wrap;
+    wrap: nowrap;
     direction: row;
   }
   justify-content: space-between;
@@ -79,4 +79,8 @@ ul {
 
 .bordered {
   border-bottom: 1px solid $light-border;
+}
+
+.anchor {
+  margin-top: 95px;
 }
