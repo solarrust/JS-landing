@@ -18,7 +18,7 @@
   @include transition;
 
   &::after {
-    content: url(../images/icon-arrow.svg);
+    content: url("../images/icons/icon-arrow.svg");
     display: block;
     float: right;
   }

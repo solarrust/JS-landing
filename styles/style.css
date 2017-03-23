@@ -128,10 +128,16 @@ ul {
   margin-top: -12px;
   width: 16px;
   height: 27px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  opacity: 0.8;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .nav-arrow:hover {
   cursor: pointer;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
 }
 
 .nav-arrow.inactive {
@@ -141,6 +147,8 @@ ul {
 
 .nav-arrow.inactive:hover {
   cursor: default;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  opacity: 0.5;
 }
 
 .left-nav {
@@ -242,7 +250,7 @@ ul {
 }
 
 .slider:after {
-  content: url('data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2219%22%20height%3D%2216%22%20viewBox%3D%220%200%2019%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Ctitle%3EF6E18D9E-60F4-47F6-AC59-15605FE6D31A%3C%2Ftitle%3E%3Cpath%20d%3D%22M9.5%2014L17%201H2z%22%20stroke-width%3D%222%22%20stroke%3D%22%23FFF%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%2F%3E%3C%2Fsvg%3E');
+  content: url("../images/icons/icon-triangle.svg");
   display: block;
   text-align: center;
   position: absolute;
@@ -508,15 +516,15 @@ ul {
 }
 
 .icon-workplace:before {
-  content: url(../images/icon-workplace.svg);
+  content: url("../images/icons/icon-workplace.svg");
 }
 
 .icon-presentation:before {
-  content: url(../images/icon-presentation.svg);
+  content: url("../images/icons/icon-presentation.svg");
 }
 
 .icon-webinar:before {
-  content: url(../images/icon-webinar.svg);
+  content: url("../images/icons/icon-webinar.svg");
 }
 
 .process-list-item-title {
@@ -596,7 +604,7 @@ ul {
 }
 
 .programm-block-title:after {
-  content: url(../images/icon-arrow.svg);
+  content: url("../images/icons/icon-arrow.svg");
   display: block;
   float: right;
 }

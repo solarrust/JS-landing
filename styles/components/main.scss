@@ -92,9 +92,12 @@ ul {
   margin-top: -12px;
   width: 16px;
   height: 27px;
+  opacity: 0.8;
+  @include transition;
 
   &:hover {
     cursor: pointer;
+    opacity: 1;
   }
 
   &.inactive {
@@ -102,24 +105,25 @@ ul {
 
     &:hover {
       cursor: default;
+      opacity: 0.5;
     }
   }
 }
 
 .left-nav {
   left: 45px;
-  @include bkg-image("../images/icon-left-arrow-white.svg");
+  @include bkg-image("../images/icons/icon-left-arrow-white.svg");
 
   &.light-background {
-    @include bkg-image("../images/icon-left-arrow-blue.svg");
+    @include bkg-image("../images/icons/icon-left-arrow-blue.svg");
   }
 }
 
 .right-nav {
   right: 45px;
-  @include bkg-image("../images/icon-right-arrow-white.svg");
+  @include bkg-image("../images/icons/icon-right-arrow-white.svg");
 
   &.light-background {
-    @include bkg-image("../images/icon-right-arrow-blue.svg");
+    @include bkg-image("../images/icons/icon-right-arrow-blue.svg");
   }
 }
