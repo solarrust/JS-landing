@@ -85,3 +85,41 @@ ul {
 .anchor {
   margin-top: 95px;
 }
+
+.nav-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  width: 16px;
+  height: 27px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.inactive {
+    opacity: 0.5;
+
+    &:hover {
+      cursor: default;
+    }
+  }
+}
+
+.left-nav {
+  left: 45px;
+  @include bkg-image("../images/icon-left-arrow-white.svg");
+
+  &.light-background {
+    @include bkg-image("../images/icon-left-arrow-blue.svg");
+  }
+}
+
+.right-nav {
+  right: 45px;
+  @include bkg-image("../images/icon-right-arrow-white.svg");
+
+  &.light-background {
+    @include bkg-image("../images/icon-right-arrow-blue.svg");
+  }
+}
