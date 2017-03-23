@@ -40,6 +40,7 @@ body {
   font-family: 'Circe Regular', Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
+  min-width: 1240px;
 }
 
 h1 {
@@ -64,7 +65,7 @@ ul {
 .middle-wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 85px 0;
+  padding: 105px 0;
 }
 
 .flex {
@@ -185,7 +186,6 @@ ul {
   padding-top: 185px;
   padding-bottom: 95px;
   text-align: center;
-  height: 100vh;
   min-height: 900px;
   position: relative;
 }
@@ -527,7 +527,7 @@ ul {
 
 .programm {
   background-color: #f7f7f7;
-  padding: 75px 0;
+  padding: 95px 0;
 }
 
 .programm-block {
