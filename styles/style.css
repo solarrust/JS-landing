@@ -198,6 +198,42 @@ ul {
   bottom: 50px;
   right: 0;
   left: 0;
+  -webkit-animation-name: triangle-cursor;
+  animation-name: triangle-cursor;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes triangle-cursor {
+  25% {
+    bottom: 45px;
+  }
+
+  50% {
+    bottom: 50px;
+  }
+
+  75% {
+    bottom: 55px;
+  }
+}
+
+@keyframes triangle-cursor {
+  25% {
+    bottom: 45px;
+  }
+
+  50% {
+    bottom: 50px;
+  }
+
+  75% {
+    bottom: 55px;
+  }
 }
 
 .slider-title {

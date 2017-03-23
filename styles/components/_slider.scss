@@ -15,6 +15,24 @@
     bottom: 50px;
     right: 0;
     left: 0;
+    animation-name: triangle-cursor;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+}
+
+@keyframes triangle-cursor {
+  25% {
+    bottom: 45px;
+  }
+
+  50% {
+    bottom: 50px;
+  }
+
+  75% {
+    bottom: 55px;
   }
 }
 
