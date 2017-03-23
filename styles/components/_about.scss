@@ -1,5 +1,5 @@
 .about {
-  
+
 }
 
 .about-main-article {
@@ -68,13 +68,13 @@
 }
 
 .icon-js::before {
-  content: url(../images/icon-js.svg);
+  content: inline("../images/icon-js.svg");
 }
 
 .icon-tag::before {
-  content: url(../images/icon-tag.svg);
+  content: inline("../images/icon-tag.svg");
 }
 
 .icon-brackets::before {
-  content: url(../images/icon-brackets.svg);
+  content: inline("../images/icon-brackets.svg");
 }

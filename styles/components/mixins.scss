@@ -1,6 +1,6 @@
 @mixin bkg-image($image) {
   background: {
-    image: url($image);
+    image: inline($image);
     repeat: no-repeat;
     position: center;
     size: cover;
