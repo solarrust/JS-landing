@@ -94,6 +94,7 @@
 }
 
 .lecture-practice {
+  display: none;
   position: absolute;
   right: 0;
   max-width: 46.5%;
@@ -101,6 +102,10 @@
   padding-left: 100px;
   @include bkg-color(#ffffff);
   border: 3px solid $bright-border;
+
+  &.is-active {
+    display: block;
+  }
 
 
   &::before {

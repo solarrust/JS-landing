@@ -733,6 +733,7 @@ ul {
 }
 
 .lecture-practice {
+  display: none;
   position: absolute;
   right: 0;
   max-width: 46.5%;
@@ -740,6 +741,10 @@ ul {
   padding-left: 100px;
   background-color: #ffffff;
   border: 3px solid #ffd532;
+}
+
+.lecture-practice.is-active {
+  display: block;
 }
 
 .lecture-practice:before {
