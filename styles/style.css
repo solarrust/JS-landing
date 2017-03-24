@@ -506,6 +506,32 @@ ul {
   position: relative;
 }
 
+.process-list-item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  bottom: -45px;
+  right: 50%;
+}
+
+.process-list-item:after {
+  counter-increment: listCounter;
+  content: counter(listCounter, decimal);
+  display: inline-block;
+  font-family: 'Circe Light', Arial, sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  position: absolute;
+  bottom: -100px;
+  right: 50%;
+}
+
 .process-list-item .icon:before {
   width: 87px;
   height: 87px;
