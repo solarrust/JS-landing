@@ -517,7 +517,8 @@ ul {
   border: 1px solid #ffffff;
   border-radius: 50%;
   bottom: -45px;
-  right: 50%;
+  right: -webkit-calc(50% - 6px);
+  right: calc(50% - 6px);
 }
 
 .process-list-item:after {
@@ -529,7 +530,25 @@ ul {
   color: #ffffff;
   position: absolute;
   bottom: -100px;
-  right: 50%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  right: -18px;
+  left: -18px;
+  text-align: center;
+}
+
+.process-list-item:first-child:after {
+  left: -webkit-calc(50% - 6px);
+  left: calc(50% - 6px);
+  right: -18px;
+  text-align: left;
+}
+
+.process-list-item:last-child:after {
+  left: -18px;
+  right: -webkit-calc(50% - 6px);
+  right: calc(50% - 6px);
+  text-align: right;
 }
 
 .process-list-item .icon:before {
