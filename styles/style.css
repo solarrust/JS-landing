@@ -617,6 +617,10 @@ ul {
   transition: all 0.4s;
 }
 
+.programm-block-title:hover {
+  cursor: pointer;
+}
+
 .lecture-list {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -651,7 +655,7 @@ ul {
   border-top: 15px solid transparent;
   border-left: 15px solid #ffffff;
   border-bottom: 15px solid transparent;
-  right: 52.5%;
+  left: 46%;
   position: absolute;
   box-shadow: 0 34px 63px 0 rgba(0, 0, 0, 0.06);
 }
@@ -701,7 +705,7 @@ ul {
   border-top: 15px solid transparent;
   border-right: 15px solid #ffd532;
   border-bottom: 15px solid transparent;
-  left: -2.9%;
+  left: -15px;
   position: absolute;
 }
 
