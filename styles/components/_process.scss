@@ -2,10 +2,7 @@
   @include bkg-image("../images/pieces-background.svg");
   position: relative;
   counter-reset: listCounter;
-
-  .middle-wrapper {
-    overflow: hidden;
-  }
+  overflow: hidden;
 }
 
 .process::before {
@@ -30,6 +27,7 @@
 }
 
 .process-list-item {
+  // display: none; Отладочный стиль
   width: 290px;
   flex: {
     shrink: 0;
@@ -73,10 +71,33 @@
     text-align: center;
   }
 
+  // Отладочные стили
+  //.first-screen &:nth-child(-n+3) {
+  //   display: block;
+  // }
+  //
+  // .second-screen &:nth-child(n + 4) {
+  //   display: block;
+  // }
+  // .second-screen &:nth-child(n + 7) {
+  //   display: none;
+  // }
+
+  &:nth-child(3n)::after {
+    right: -495px;
+    text-indent: -475px;
+  }
+
+  &:nth-child(3n+1)::after {
+    left: -495px;
+    text-indent: 475px;
+  }
+
   &:first-child::after {
     left: calc(50% - 6px);
     right: -18px;
     text-align: left;
+    text-indent: inherit;
   }
 
   &:last-child::after {

@@ -456,9 +456,6 @@ ul {
   background-size: cover;
   position: relative;
   counter-reset: listCounter;
-}
-
-.process .middle-wrapper {
   overflow: hidden;
 }
 
@@ -537,11 +534,22 @@ ul {
   text-align: center;
 }
 
+.process-list-item:nth-child(3n):after {
+  right: -495px;
+  text-indent: -475px;
+}
+
+.process-list-item:nth-child(3n+1):after {
+  left: -495px;
+  text-indent: 475px;
+}
+
 .process-list-item:first-child:after {
   left: -webkit-calc(50% - 6px);
   left: calc(50% - 6px);
   right: -18px;
   text-align: left;
+  text-indent: inherit;
 }
 
 .process-list-item:last-child:after {
