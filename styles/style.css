@@ -245,7 +245,7 @@ ul {
   padding-top: 185px;
   padding-bottom: 95px;
   text-align: center;
-  min-height: 900px;
+  max-height: 95vh;
   position: relative;
 }
 
