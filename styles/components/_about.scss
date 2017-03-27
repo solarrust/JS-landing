@@ -9,9 +9,9 @@
 
 .about-main-title {
   font: {
-    family: 'Circe Light', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 45px;
-    weight: normal;
+    weight: 300;
   }
   line-height: 49px;
   max-width: 395px;
@@ -21,8 +21,9 @@
     content: "JS";
     display: block;
     font: {
-      family: 'Circe Bold', Arial, sans-serif;
+      family: 'Circe', Arial, sans-serif;
       size: 12px;
+      weight: 800;
     }
     color: $red-accent;
   }
@@ -30,7 +31,7 @@
 
 .about-main-text {
   font: {
-    family: 'Circe Regular', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
   }
   color: $gray-text;
 }
@@ -46,7 +47,7 @@
 
 .list-item-title {
   font: {
-    family: 'Circe Regular', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 22px;
     weight: normal;
   }

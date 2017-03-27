@@ -58,8 +58,9 @@
     content: counter(listCounter, decimal);
     display: inline-block;
     font:{
-      family: 'Circe Light', Arial, sans-serif;
+      family: 'Circe', Arial, sans-serif;
       size: 28px;
+      font-weight: 300;
     }
     color: $light-text;
     position: absolute;
@@ -130,8 +131,9 @@
 
 .process-list-item-title {
   font: {
-    family: 'Circe ExtraBold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 19px;
+    font-weight: 900;
   }
   text-transform: uppercase;
   color: $dark-gray-text;

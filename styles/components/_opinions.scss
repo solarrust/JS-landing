@@ -27,7 +27,8 @@
 .opinion-title {
   margin: 40px 0;
   font: {
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
+    weight: 800;
     size: 34px;
   }
   color: $dark-gray-text;
@@ -44,8 +45,9 @@
 
 .person-name {
   font: {
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 22px;
+    weight: 800;
   }
   color: $dark-gray-text;
 }

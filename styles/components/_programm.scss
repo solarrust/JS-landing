@@ -9,7 +9,7 @@
 
 .programm-block-title {
   font: {
-    family: 'Circe Light', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 28px;
     weight: 300;
   }
@@ -68,8 +68,9 @@
 
 .lecture-title {
   font: {
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 20px;
+    font-weight: 800;
   }
   position: relative;
 
@@ -83,7 +84,8 @@
     border: 1px solid $dark-accent;
     border-radius: 50%;
     font: {
-      family: 'Circe Bold', Arial, sans-serif;
+      family: 'Circe', Arial, sans-serif;
+      weight: 800;
     }
     color: $dark-accent;
     line-height: 43px;
@@ -123,8 +125,9 @@
 
 .lecture-practice-title {
   font: {
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
     size: 20px;
+    weight: 800;
   }
   margin-bottom: 25px;
 

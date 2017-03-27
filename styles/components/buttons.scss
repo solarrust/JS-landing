@@ -13,7 +13,8 @@
   padding: 15px 35px;
   font: {
     size: 12px;
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
+    weight: 800;
   }
   text-transform: uppercase;
   @include transition;
@@ -38,7 +39,8 @@
   box-shadow: 0 16px 24px 0 $blue-shadow;
   font: {
     size: 20px;
-    family: 'Circe Bold', Arial, sans-serif;
+    family: 'Circe', Arial, sans-serif;
+    weight: 800;
   }
   @include transition;
 

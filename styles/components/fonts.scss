@@ -1,35 +1,35 @@
 @font-face {
   font: {
-    family: 'Circe Light';
+    family: 'Circe';
     style: normal;
-    weight: normal;
+    weight: 300;
   }
-  src: local('Circe Light'), url('../fonts/CirceLight.woff') format('woff');
+  src: local('Circe'), url('../fonts/CirceLight.woff') format('woff');
 }
 
 @font-face {
   font: {
-    family: 'Circe Regular';
+    family: 'Circe';
     style: normal;
     weight: normal;
   }
-  src: local('Circe Regular'), url('../fonts/CirceReg.woff') format('woff');
+  src: local('Circe'), url('../fonts/CirceReg.woff') format('woff');
 }
 
 @font-face {
   font: {
-    family: 'Circe Bold';
+    family: 'Circe';
     style: normal;
-    weight: normal;
+    weight: 800;
   }
-  src: local('Circe Bold'), url('../fonts/CirceBold.woff') format('woff');
+  src: local('Circe'), url('../fonts/CirceBold.woff') format('woff');
 }
 
 @font-face {
   font: {
-    family: 'Circe ExtraBold';
+    family: 'Circe';
     style: normal;
-    weight: normal;
+    weight: 900;
   }
-  src: local('Circe ExtraBold'), url('../fonts/CirceExtraBold.woff') format('woff');
+  src: local('Circe'), url('../fonts/CirceExtraBold.woff') format('woff');
 }

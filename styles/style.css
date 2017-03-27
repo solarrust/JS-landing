@@ -1,27 +1,27 @@
 @charset "UTF-8";
 @font-face {
-  font-family: 'Circe Light';
+  font-family: 'Circe';
   font-style: normal;
-  font-weight: normal;
-  src: local("Circe Light"), url("../fonts/CirceLight.woff") format("woff"); }
+  font-weight: 300;
+  src: local("Circe"), url("../fonts/CirceLight.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Circe Regular';
+  font-family: 'Circe';
   font-style: normal;
   font-weight: normal;
-  src: local("Circe Regular"), url("../fonts/CirceReg.woff") format("woff"); }
+  src: local("Circe"), url("../fonts/CirceReg.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Circe Bold';
+  font-family: 'Circe';
   font-style: normal;
-  font-weight: normal;
-  src: local("Circe Bold"), url("../fonts/CirceBold.woff") format("woff"); }
+  font-weight: 800;
+  src: local("Circe"), url("../fonts/CirceBold.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Circe ExtraBold';
+  font-family: 'Circe';
   font-style: normal;
-  font-weight: normal;
-  src: local("Circe ExtraBold"), url("../fonts/CirceExtraBold.woff") format("woff"); }
+  font-weight: 900;
+  src: local("Circe"), url("../fonts/CirceExtraBold.woff") format("woff"); }
 
 * {
   box-sizing: border-box;
@@ -29,7 +29,7 @@
   padding: 0; }
 
 html, body {
-  font-family: 'Circe Regular', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 18px;
   font-weight: normal;
   min-width: 1240px; }
@@ -76,7 +76,7 @@ ul {
   color: #212121;
   font-size: 41px;
   line-height: 49px;
-  font-family: 'Circe Light', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-weight: 300;
   text-align: center;
   margin-bottom: 45px; }
@@ -159,7 +159,8 @@ ul {
   border-radius: 35px;
   padding: 15px 35px;
   font-size: 12px;
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
@@ -179,7 +180,8 @@ ul {
   padding: 20px 60px;
   box-shadow: 0 16px 24px 0 rgba(131, 120, 255, 0.3);
   font-size: 20px;
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
+  font-weight: 800;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
   .conversion-btn:hover, .conversion-btn:active, .conversion-btn:focus {
@@ -249,8 +251,9 @@ ul {
 
 .slider-extra {
   margin-top: 35px;
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 20px;
+  font-weight: 800;
   color: #ffffff; }
 
 .slider-extra-item:before {
@@ -311,21 +314,22 @@ ul {
   padding: 80px 140px 80px 0; }
 
 .about-main-title {
-  font-family: 'Circe Light', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 45px;
-  font-weight: normal;
+  font-weight: 300;
   line-height: 49px;
   max-width: 395px;
   margin-bottom: 45px; }
   .about-main-title:before {
     content: "JS";
     display: block;
-    font-family: 'Circe Bold', Arial, sans-serif;
+    font-family: 'Circe', Arial, sans-serif;
     font-size: 12px;
+    font-weight: 800;
     color: #ff5751; }
 
 .about-main-text {
-  font-family: 'Circe Regular', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   color: #6c7073; }
 
 .about-list {
@@ -336,7 +340,7 @@ ul {
   padding-bottom: 50px; }
 
 .list-item-title {
-  font-family: 'Circe Regular', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 22px;
   font-weight: normal;
   margin-bottom: 20px; }
@@ -428,8 +432,9 @@ ul {
     counter-increment: listCounter;
     content: counter(listCounter, decimal);
     display: inline-block;
-    font-family: 'Circe Light', Arial, sans-serif;
+    font-family: 'Circe', Arial, sans-serif;
     font-size: 28px;
+    font-font-weight: 300;
     color: #ffffff;
     position: absolute;
     bottom: -100px;
@@ -473,8 +478,9 @@ ul {
   content: url("../images/icons/icon-webinar.svg"); }
 
 .process-list-item-title {
-  font-family: 'Circe ExtraBold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 19px;
+  font-font-weight: 900;
   text-transform: uppercase;
   color: #4e4e4e;
   margin-bottom: 15px; }
@@ -525,7 +531,7 @@ ul {
   position: relative; }
 
 .programm-block-title {
-  font-family: 'Circe Light', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 28px;
   font-weight: 300;
   border-bottom: 2px solid #d8d8d8;
@@ -583,8 +589,9 @@ ul {
     margin-bottom: 10px; }
 
 .lecture-title {
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 20px;
+  font-font-weight: 800;
   position: relative; }
   .lecture-title:before {
     counter-increment: lecture-num;
@@ -595,7 +602,8 @@ ul {
     height: 43px;
     border: 1px solid #827f93;
     border-radius: 50%;
-    font-family: 'Circe Bold', Arial, sans-serif;
+    font-family: 'Circe', Arial, sans-serif;
+    font-weight: 800;
     color: #827f93;
     line-height: 43px;
     text-align: center;
@@ -625,8 +633,9 @@ ul {
     position: absolute; }
 
 .lecture-practice-title {
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 20px;
+  font-weight: 800;
   margin-bottom: 25px; }
   .lecture-practice-title:before {
     content: "JS";
@@ -669,7 +678,8 @@ ul {
 
 .opinion-title {
   margin: 40px 0;
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
+  font-weight: 800;
   font-size: 34px;
   color: #4e4e4e; }
 
@@ -681,8 +691,9 @@ ul {
   margin-top: 80px; }
 
 .person-name {
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
   font-size: 22px;
+  font-weight: 800;
   color: #4e4e4e; }
 
 .person-work {
@@ -749,7 +760,8 @@ ul {
   min-height: 275px; }
 
 .course-name {
-  font-family: 'Circe Bold', Arial, sans-serif;
+  font-family: 'Circe', Arial, sans-serif;
+  font-weight: 800;
   color: #212121;
   padding: 25px 30px;
   background: #dedddd;
@@ -956,8 +968,9 @@ ul {
     background-color: #f3e1e1; }
 
 .wharefore-list-item-title {
-  font-family: 'Circe Bold', Arial, sans-serif;
-  font-size: 30px; }
+  font-family: 'Circe', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 800; }
 
 .wharefore-list-item-text {
   font-size: 23px; }
