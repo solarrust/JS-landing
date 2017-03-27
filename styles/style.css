@@ -161,6 +161,7 @@ ul {
   font-size: 12px;
   font-family: 'Circe', Arial, sans-serif;
   font-weight: 800;
+  letter-spacing: 2.4px;
   text-transform: uppercase;
   -webkit-transition: all 0.4s;
   transition: all 0.4s; }
