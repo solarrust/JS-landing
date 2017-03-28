@@ -199,10 +199,9 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-top: 185px;
-  padding-bottom: 95px;
   text-align: center;
   height: 100vh;
+  min-height: 720px;
   position: relative; }
   .slider:after {
     content: url("../images/icons/icon-triangle.svg");
@@ -220,6 +219,15 @@ ul {
             animation-iteration-count: infinite;
     -webkit-animation-duration: 2s;
             animation-duration: 2s; }
+  .slider .custom-wrapper {
+    margin: 0;
+    padding: 0;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%; }
 
 @-webkit-keyframes triangle-cursor {
   25% {
