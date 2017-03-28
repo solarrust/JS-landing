@@ -16,10 +16,12 @@
   padding: 50px 20px;
   text-align: center;
   @include transition;
+  will-change: transform;
 
   &:hover {
     transform: scale(1.1);
     @include transition;
+    will-change: transform;
   }
 }
 
